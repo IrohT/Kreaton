@@ -1,33 +1,47 @@
+* {
+    font-family: "Nirmala UI";
+    font-size: 10px;
+    font-weight: bolder;
+
+}
 
 body {
+    background: white;
 
-    background: #5CAAAA;
 }
+
+#bemutat h1 {
+
+    text-align: left;
+    font-family: "Nirmala UI";
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+}
+
 
 form {
-    width: 400px;
-    margin: 20px auto;
+    border: solid #CAD7E4;
+    width: 300px;
+    margin: 50px 100px;
     padding: 20px;
-    border-radius: 10px;
-    background: #ACD4D4;
 
 }
 
-
-form img {
-    width: 220px;
-    border-radius: 110px;
-    display: block;
-    margin: 0 auto;
+form input[type=submit] {
+    background: #CAD7E4;
 
 }
 
 
 form input {
-    border: none;
-    width: 300px;
-    margin: 10px 20px;
-    padding: 20px;
+    border: solid #CAD7E4;
+    width: 200px;
+    margin: 10px auto;
+    padding: 5px;
     border-radius: 10px;
     transition: all 200ms ease-in;
 }
@@ -40,8 +54,12 @@ form input:hover {
 }
 
 
-#belep {
-    text-align: center;
-    margin-top: 20px;
+form legend {
+    padding: 10px;
+    text-align: left;
+    margin: 20px auto;
+    font-family: "Nirmala UI";
+    font-size: 30px;
+    font-weight: bolder;
 
 }
