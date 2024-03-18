@@ -8,6 +8,7 @@
 body {
     background: white;
 
+
 }
 
 
@@ -53,7 +54,7 @@ form legend {
 nav {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 98%;
 }
 
 nav li {
@@ -72,7 +73,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 30px 150px;
+    padding: 20px 90px;
     font-size: 20px;
     text-decoration: none;
     transition: all 200ms ease-in-out;
@@ -81,7 +82,7 @@ nav li a {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10px 10px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -136,28 +137,6 @@ nav ul {
     padding: 10px;
 }
 
-
-.button {
-    display: flex;
-    border: solid #333;
-    background-color: #333;
-    color: white;
-    width: 200px;
-    margin: 10px auto;
-    padding: 20px;
-    border-radius: 10px;
-    transition: all 200ms ease-in;
-}
-
-
-.button:hover {
-    box-shadow: 5px 10px;
-    transform: scale(1.2);
-    color: #333;
-    background: white;
-    transition: all 200ms ease-in;
-    cursor: pointer;
-}
 
 
 .main_content {
