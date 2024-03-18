@@ -1,0 +1,47 @@
+
+body {
+
+    background: #5CAAAA;
+}
+
+form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ACD4D4;
+
+}
+
+
+form img {
+    width: 220px;
+    border-radius: 110px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+form input {
+    border: none;
+    width: 300px;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+}
+
+
+form input:hover {
+    transform: scale(1.2);
+    transition: all 200ms ease-in-out;
+    background-color: #CAD7E4;
+}
+
+
+#belep {
+    text-align: center;
+    margin-top: 20px;
+
+}
