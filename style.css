@@ -10,47 +10,33 @@ body {
 
 }
 
-#bemutat h1 {
-
-    text-align: left;
-    font-family: "Nirmala UI";
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.menu {
-    display: flex;
-}
-
-
-form {
-    border: solid #CAD7E4;
-    width: 300px;
-    margin: 50px 100px;
-    padding: 20px;
-
-}
 
 form input[type=submit] {
-    background: #CAD7E4;
+    background: #333;
+    cursor: pointer;
 
 }
 
 
 form input {
-    border: solid #CAD7E4;
+    border: solid #333;
+    background-color: #333;
+    color: white;
     width: 200px;
     margin: 10px auto;
-    padding: 5px;
+    padding: 20px;
     border-radius: 10px;
     transition: all 200ms ease-in;
 }
 
 
 form input:hover {
+    box-shadow: 5px 10px;
     transform: scale(1.2);
+    color: #333;
+    background: white;
     transition: all 200ms ease-in-out;
-    background-color: #CAD7E4;
+
 }
 
 
@@ -63,3 +49,119 @@ form legend {
     font-weight: bolder;
 
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+
+}
+
+nav li a:hover {
+    background: white;
+    color: #333;
+    transition: all 200ms ease-in-out;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 150px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+#bemutat {
+    border: solid #333;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto 100px 100px;
+    padding: 20px;
+    transition: all 200ms ease-in;
+}
+
+#bemutat:hover {
+    box-shadow: 5px 10px;
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+
+}
+
+
+
+#bemutat h1 {
+    font-family: "Nirmala UI";
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+#bemutat p {
+    font-family: "Nirmala UI";
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#login {
+    border: solid #333;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px 50px 100px auto;
+    padding: 10px;
+
+}
+
+#regist {
+    border: solid #333;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+
+.button {
+    display: flex;
+    border: solid #333;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+}
+
+
+.button:hover {
+    box-shadow: 5px 10px;
+    transform: scale(1.2);
+    color: #333;
+    background: white;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+
+.main_content {
+    display: flex;
+}
+
+

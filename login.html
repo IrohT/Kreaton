@@ -5,24 +5,37 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Kreaton</title>
+    <title>Kreaton login</title>
 </head>
 
 
 <body>
+<nav>
+    <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+    </ul>
+</nav>
 
-<div class="menu">
-<form action="" method="post">
+
+<div class="main_content">
+    <form id="login" action="" method="post">
 
     <div>
 
         <legend>Belépés</legend>
-        <input type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
-        <input type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
+        <label for="felh">Felhasználónév:</label>
+        <input id="felh" type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
+        <label for="jel">Jelszó:</label> <br/>
+        <input id="jel" type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
         <input type="submit" value="Bejelentkezés"/>
 
     </div>
+
 </form>
+
 
     <div id="bemutat">
         <h1>Bemutatkozas</h1>
@@ -45,33 +58,10 @@
 
 </div>
 
+<a href="register.html">
+    <button class="button">Regisztálok</button>
+</a>
 
-<div class="menu">
-    <form action="" method="post">
-
-        <div>
-            <legend>Regisztráció</legend>
-            <input type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
-            <input type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
-            <input type="email" name="email" placeholder="valami@valami..." required/> <br/><br/>
-            <input type="submit" value="Regisztriáció"/>
-
-        </div>
-    </form>
-
-    <div>
-        <h1>Bemutatkozas</h1>
-
-        <p>
-            <span>AA</span>
-            <span>A</span>
-            <span>A</span>
-            <span>A</span>
-            <span>A</span>
-        </p>
-
-    </div>
-</div>
 
 
 </body>
