@@ -26,8 +26,10 @@
 
         <div>
             <legend>Regisztráció</legend>
-            <input type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
-            <input type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
+            <label for="felh">Felhasználónév:</label>
+            <input id="felh" type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
+            <label for="jel">Jelszó:</label> <br/>
+            <input id="jel" type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
             <input type="email" name="email" placeholder="valami@valami..." required/> <br/><br/>
             <input type="submit" value="Regisztriáció"/>
 

@@ -89,35 +89,32 @@ nav ul {
 
 }
 
-#bemutat {
+#rock {
     border: solid #333;
     border-radius: 10px;
-    width: 300px;
+    width: 600px;
     margin: 100px auto 100px 100px;
     padding: 20px;
     transition: all 200ms ease-in;
 }
 
-#bemutat:hover {
+#rock:hover {
     box-shadow: 5px 10px;
     transform: scale(1.1);
-    transition: all 200ms ease-in;
+    transition: all 350ms ease;
 
 }
 
 
-
-#bemutat h1 {
+#rock h1 {
     font-family: "Nirmala UI";
     font-size: 30px;
     font-weight: bolder;
 
 }
 
-#bemutat p {
-    font-family: "Nirmala UI";
+#rock p {
     font-size: 15px;
-    font-weight: bolder;
 }
 
 #login {
