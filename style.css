@@ -2,6 +2,8 @@
     font-family: "Nirmala UI";
     font-size: 10px;
     font-weight: bolder;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -9,6 +11,11 @@ body {
     background: white;
 
 
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
 }
 
 
@@ -54,8 +61,10 @@ form legend {
 nav {
     position: fixed;
     top: 0;
-    width: 98%;
+    width: 100%;
+    background-color: #333;
 }
+
 
 nav li {
     float: left;
@@ -63,9 +72,10 @@ nav li {
 }
 
 nav li a:hover {
+    border: #333333;
     background: white;
     color: #333;
-    transition: all 200ms ease-in-out;
+    transition: all 300ms ease-in-out;
 
 }
 
@@ -85,7 +95,7 @@ nav ul {
     margin: 10px 10px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+
 
 }
 
@@ -93,7 +103,7 @@ nav ul {
     border: solid #333;
     border-radius: 10px;
     width: 600px;
-    margin: 100px auto 100px 100px;
+    margin: 100px auto;
     padding: 20px;
     transition: all 200ms ease-in;
 }
@@ -106,7 +116,7 @@ nav ul {
 }
 
 
-#rock h1 {
+h1 {
     font-family: "Nirmala UI";
     font-size: 30px;
     font-weight: bolder;
@@ -121,7 +131,8 @@ nav ul {
     border: solid #333;
     border-radius: 10px;
     width: 300px;
-    margin: 100px 50px 100px auto;
+    height: 400px;
+    margin: 100px auto;
     padding: 10px;
 
 }
