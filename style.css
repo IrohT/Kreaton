@@ -134,10 +134,151 @@ nav ul {
     padding: 10px;
 }
 
+main{
+    margin-top: 5%;
+    display: flex;
 
+}
 
 .main_content {
     display: flex;
 }
 
+#bemu{
+    text-align: center;
+    margin: 200px auto auto auto;
+    border: solid #333;
+    padding-top: 0;
+    opacity: 0;
+    animation: about 500ms ease-in-out 1s;
+    animation-fill-mode: forwards ;
+}
 
+#bemu h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    transform: scale(0%);
+    animation: abh1 400ms ease-in-out 1.5s ;
+    animation-fill-mode: forwards;
+}
+#bemu h2 {
+    font-size: 25px;
+    margin-top: 0;
+    opacity: 0;
+    animation: abh2p 300ms ease-in-out 1.8s;
+    animation-fill-mode: forwards;
+}
+
+#bemu p{
+    font-size: 15px;
+    font-weight: normal;
+    opacity: 0;
+    animation: abh2p 300ms ease-in-out 1.9s;
+    animation-fill-mode: forwards;
+}
+
+#balkep{
+margin: 65px 50px  auto 15%;
+
+}
+
+#balkep img{
+    width: 300px;
+    padding: 50px 50px;
+    opacity: 0;
+
+}
+
+#balkep img:first-child{
+    animation: elsokep 400ms ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+#balkep img:last-child{
+    animation: masodkep 400ms ease-in-out 300ms;
+    animation-fill-mode: forwards;
+
+}
+
+#jobkep{
+    margin: 200px 15% auto 50px;
+}
+
+#jobkep img{
+    width: 300px;
+    padding: 50px 50px;
+    opacity: 0;
+    animation: harmadkep 400ms ease-in-out 700ms;
+    animation-fill-mode: forwards;
+}
+@keyframes elsokep {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(-75px);
+        opacity: 1;
+    }
+
+
+}
+
+@keyframes masodkep {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(75px);
+        opacity: 1;
+    }
+
+}
+
+@keyframes harmadkep {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes about {
+    0%{
+        opacity: 0;
+}
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes abh1 {
+    0%{
+        transform: scale(0%);
+    }
+
+    80%{
+        transform: scale(120%);
+
+    }
+
+    100%{
+        transform: scale(100%);
+    }
+}
+
+@keyframes abh2p {
+   0%{
+       opacity: 0;
+}
+    100%{
+        opacity: 1;
+    }
+}
