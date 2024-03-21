@@ -175,7 +175,7 @@ main{
 }
 #bemu h2 {
     font-size: 25px;
-    margin-top: 0;
+    margin-bottom: 10px;
     opacity: 0;
     animation: abh2p 300ms ease-in-out 1.8s;
     animation-fill-mode: forwards;
