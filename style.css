@@ -74,6 +74,9 @@ form legend {
 }
 
 /*-------------------- navigáció ----------------*/
+
+
+/*------ navigáció felso ----*/
 #upper-menu {
     position: fixed;
     top: 0;
@@ -87,7 +90,7 @@ form legend {
 
 }
 
-
+/*---- oldalso -----*/
 #side-menu {
     margin: 100px 0;
     padding: 10px;
@@ -95,6 +98,7 @@ form legend {
     width: 5%;
     height: 100%;
 }
+
 
 #side-menu li a {
     padding: 30px 5px;
@@ -122,6 +126,7 @@ form legend {
 }
 
 
+/*-- navigáció kozos -----*/
 
 nav li a:hover {
     transform: scale(1.1);
@@ -228,7 +233,7 @@ nav ul {
     margin: 10px 10px;
     border: 5px solid #333;
     border-radius: 10px;
-    transition: 200ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
 
 .basket_item a {
@@ -242,7 +247,7 @@ nav ul {
 .basket_item:hover {
     box-shadow: 5px 5px;
     cursor: pointer;
-    transition: 200ms ease-in-out;
+    transition: 300ms ease-in-out;
 
 }
 
@@ -394,12 +399,13 @@ margin: 65px 50px  auto 15%;
     margin: 10px 10px;
     border: 5px solid #333333;
     border-radius: 10px;
+    transition: 300ms ease-in-out;
 }
 
 
 .item:hover {
     box-shadow: 5px 10px;
-    transition: 200ms ease-in-out;
+    transition: 300ms ease-in-out;
     cursor: pointer;
 }
 
