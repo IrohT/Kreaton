@@ -93,7 +93,6 @@ form legend {
 /*---- oldalso -----*/
 #side-menu {
     margin: 100px 0;
-    padding: 10px;
     position: fixed;
     width: 5%;
     height: 100%;
@@ -172,8 +171,6 @@ nav ul {
     transition: all 350ms ease;
 
 }
-
-
 
 
 #rock p {
@@ -489,4 +486,58 @@ margin: 65px 50px  auto 15%;
     100%{
         opacity: 1;
     }
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+    nav li a {
+        padding: 20px 10px;
+
+    }
+
+    #side-menu li a {
+        padding: 20px 5px;
+        font-size: 10px;
+
+
+    }
+
+    #rock {
+        display: none;
+    }
+
+
+    #login {
+        width: 200px;
+        height: 200px;
+        margin: 100px auto 50px;
+        padding: 5px;
+
+    }
+
+    #regist {
+        width: 200px;
+        height: 300px;
+        margin: 100px auto 50px;
+        padding: 5px;
+
+    }
+
+    form input {
+
+        width: 100px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    form legend {
+        text-align: center;
+        padding: 5px 0;
+        margin: 5px auto;
+        font-size: 15px;
+
+    }
+
+
 }
