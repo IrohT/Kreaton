@@ -381,6 +381,7 @@ margin: 65px 50px  auto 15%;
 }
 
 .shop_items img {
+    width: 50%;
     padding: 20px;
     margin: 0;
     transition: 200ms ease-in-out;
@@ -388,22 +389,38 @@ margin: 65px 50px  auto 15%;
 
 
 .shop_items {
-    padding: 0 50px;
+    padding: 10px 10px;
     display: flex;
 }
 
 .item {
-    margin: 10px 10px;
-    border: 5px solid #333333;
+    border: 5px solid #333;
     border-radius: 10px;
+    margin: 10px 10px;
     transition: 300ms ease-in-out;
+}
+
+.item:hover a {
+    text-align: center;
+    display: block;
+    border: solid #333;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+
+}
+
+.item:hover p {
+    display: block;
+
 }
 
 
 .item:hover {
-    box-shadow: 5px 10px;
-    transition: 300ms ease-in-out;
-    cursor: pointer;
+    display: flex;
+
+
 }
 
 .item h3 {
@@ -413,8 +430,33 @@ margin: 65px 50px  auto 15%;
 }
 
 .item p {
+    display: none;
+    margin: 10px;
     font-size: 10px;
 }
+
+.item a {
+
+    display: none;
+
+
+}
+
+
+.item h4 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 10px 10px;
+
+}
+
+
+.item:hover h4 {
+    text-align: left;
+
+}
+
 
 
 /*-------------------- animációk Levi <3333 ----------------*/
