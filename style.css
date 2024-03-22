@@ -119,7 +119,8 @@ form legend {
 
 #side-menu li a:hover {
     transform: scale(1.1);
-    color: white;
+    color: #333;
+    background: white;
     transition: all 300ms ease-in-out;
 
 }
