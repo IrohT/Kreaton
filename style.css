@@ -195,6 +195,81 @@ nav ul {
     padding: 10px;
 }
 
+/*-------------------- kosár ----------------*/
+
+#basket {
+    padding: 100px 10px;
+    margin: 100px 50px;
+    text-align: center;
+}
+
+#basket-container {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+
+
+}
+
+#basket-items {
+    padding: 0 50px;
+    display: flex;
+
+}
+
+#basket img {
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+    transition: 200ms ease-in-out;
+}
+
+.basket_item {
+    margin: 10px 10px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+}
+
+.basket_item a {
+    border: solid red;
+    border-radius: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+
+.basket_item:hover {
+    box-shadow: 5px 5px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+
+}
+
+#sum {
+    display: block;
+    text-align: left;
+}
+
+
+#sum a {
+    margin: 0 10px 0 0;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    border: white;
+    border-radius: 10px;
+}
+
+#sum h3 {
+    margin: 10px 0 50px;
+    text-align: left;
+    font-size: 30px;
+}
+
+
 
 /*-------------------- majd levi ide irja mi ez ----------------*/
 #bemu{
