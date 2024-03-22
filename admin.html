@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+
+
+<body>
+
+<nav id="upper-menu">
+    <ul>
+        <li><a href="shop.html">Bolt</a></li>
+        <li><a href="basket.html">Kosár</a></li>
+        <li><a href="about_us.html">Rólunk</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html">Belépek</a></li>
+
+    </ul>
+</nav>
+
+
+<div class="main_content">
+    <div class="admin-box">
+
+        <form class="admin-form" action="" method="post">
+
+            <div>
+                <legend>Termék hozzáadása</legend>
+                <label for="term">Termék neve:</label> <br>
+                <input id="term" type="text" name="item_name" placeholder="Trenatilos fogkrém..." required/> <br/><br/>
+                <label for="jel">Leírás:</label> <br/>
+                <input id="leir" type="text" name="leiras" placeholder="nagyon finom nagyon jo..." required/> <br/><br/>
+                <label for="jel">Termék képe:</label> <br/>
+                <input id="kép" type="image" name="kép" required/> <br/><br/>
+                <input type="submit" value="Feltöltés"/>
+            </div>
+        </form>
+
+    </div>
+
+
+    <div class="admin-box">
+
+        <h1>Admin Felület</h1>
+
+    </div>
+
+
+    <div class="admin-box">
+        <form class="admin-form" action="" method="post">
+
+            <div>
+
+                <legend>Termék Törlése</legend>
+                <label for="neve">Termék neve:</label><br>
+                <input id="neve" type="text" name="username" placeholder="Trenatilos fogkrém..." required/> <br/><br/>
+                <label for="azon">Termék azonositója:</label> <br/>
+                <input id="azon" type="text" name="azonosito" placeholder="x91112" required/> <br/><br/>
+                <input type="submit" value="Törlés"/>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+</div>
+
+<footer>
+    <h1>Author: Mc jolo</h1>
+</footer>
+</body>
+</html>
