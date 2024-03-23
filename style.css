@@ -399,7 +399,7 @@ margin: 65px 50px  auto 15%;
     border: 5px solid #333;
     border-radius: 10px;
     margin: 10px 10px;
-    transition: 300ms ease-in-out;
+    transition: 600ms ease-in-out;
 }
 
 
@@ -434,9 +434,10 @@ margin: 65px 50px  auto 15%;
 
 
 .item:hover {
+    height: 50%;
     display: revert;
     padding: 0 10px;
-    transition: 300ms ease-in-out;
+    transition: 600ms ease-in-out;
 
 
 }
@@ -457,6 +458,13 @@ margin: 65px 50px  auto 15%;
     margin: 10px 10px;
 
 }
+
+
+.item:hover img {
+    width: 40%;
+
+}
+
 
 
 
