@@ -33,6 +33,28 @@ h1 {
 
 }
 
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button{
+    border: solid #333;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+}
+
+button:hover{
+    box-shadow: 5px 10px;
+    color: #333;
+    background: white;
+    transition: all 200ms ease-in-out;
+}
 /*-------------------- form ----------------*/
 form input[type=submit] {
     background: #333;
@@ -289,7 +311,7 @@ nav ul {
 }
 
 
-/*-------------------- majd levi ide irja mi ez ----------------*/
+/*-------------------- about_us ----------------*/
 #bemu{
     text-align: center;
     margin: 200px auto auto auto;
@@ -464,8 +486,101 @@ margin: 65px 50px  auto 15%;
 }
 
 
+/*-------------------- profil page --------------------*/
+#profil{
+    height: 375px;
+    width: 375px;
+    margin: 100px 20px 20px 20px;
+    border: solid #333;
+
+}
+
+#profil img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 10% auto 20px auto;
+    display: block;
+}
+
+#profil h1{
+ text-align: center;
+}
+
+#profil p{
+    margin: 10px auto;
+    font-size: 15px;
+    text-align: center;
+     color: lightgray;
+}
 
 
+#bmi{
+    height: 375px;
+    width: 375px;
+    margin: 20px;
+    border: solid #333;
+}
+
+#bmi h1{
+    margin-top: 25px;
+    text-align: center;
+}
+
+#bmi form{
+   margin: 20px;
+}
+
+#bmi form input{
+    width: 100px;
+}
+
+#bmi form input[type=submit]{
+    width: 100%;
+}
+
+#bmi form label{
+    font-size: 20px;
+}
+
+table{
+    height: 90%;
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+
+td{
+    border-bottom: solid #333;
+}
+
+td:first-child{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+td:last-child{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkgray;
+}
+
+#adatok{
+    height: 775px;
+    width: 100%;
+    margin: 100px 20px 20px 0;
+    border: solid #333;
+    display: block;
+
+}
+
+#adatok button{
+    float: right;
+    margin: 10px 50px 10px auto;
+}
 
 /*-------------------- animációk Levi <3333 ----------------*/
 @keyframes elsokep {
