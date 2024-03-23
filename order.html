@@ -11,26 +11,28 @@
 
 <body>
 
-<nav id="upper-menu">
+<nav>
     <ul>
-        <li><a href="shop.html">Bolt</a></li>
+        <li class="dropdown">
+            <a href="shop.html" class="dropbtn">Bolt</a>
+            <div class="dropdown-content">
+                <a href="#tren">Tren</a>
+                <a href="#feherje">Vitamin</a>
+                <a href="#vitamin">Fehérje</a>
+            </div>
+        </li>
         <li><a href="basket.html">Kosár</a></li>
         <li><a href="about_us.html">Rólunk</a></li>
         <li><a href="profile.html">Profile</a></li>
-        <li><a href="login.html">Belépek/Regisztrálok</a></li>
+        <li><a href="login.html">Belépek</a></li>
 
     </ul>
 </nav>
 
 
 <div class="main_content">
-
-
-    <div>
         <form id="order" action="" method="post">
-
             <div>
-
                 <legend>Szállítási adatok</legend>
                 <label for="megyek">Vármegyek</label><br/><br/>
                 <select id="megyek" name="megyek" size=”1”>
@@ -53,19 +55,17 @@
                     <option value="megye2">Vas</option>
                     <option value="megye3">Veszprém</option>
                     <option value="megye4">Zala</option>
-
-
                 </select><br/><br/>
 
 
                 <label for="city">Város</label><br/><br/>
-                <input id="city" type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
+                <input id="city" type="text" name="username" placeholder="Budapest" required/> <br/><br/>
 
                 <label for="street">Utca/házszám</label><br/><br/>
-                <input id="street" type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
+                <input id="street" type="text" name="username" placeholder="fogoly utca 17/A" required/> <br/><br/>
 
                 <label for="telephone">Telefonszám</label><br/><br/>
-                <input id="telephone" type="tel" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
+                <input id="telephone" type="tel" name="username" placeholder="+3620888888" required/> <br/><br/>
 
                 <label for="telephone">Üzenet a futárnak</label><br/><br/>
                 <textarea>
@@ -76,12 +76,7 @@
                 <input type="submit" value="Fizetés"/>
 
             </div>
-
         </form>
-
-    </div>
-
-
 </div>
 
 <footer>
