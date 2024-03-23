@@ -96,7 +96,12 @@ form label {
 
 
 #flex-buttons {
+    margin: 10px 10px;
     display: flex;
+}
+
+#flex-buttons > input {
+    margin: 0 10px;
 }
 
 /*-------------------- navigáció ----------------*/
