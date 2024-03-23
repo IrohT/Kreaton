@@ -383,7 +383,7 @@ margin: 65px 50px  auto 15%;
 }
 
 .shop_items img {
-    width: 60%;
+    width: 70%;
     padding: 20px;
     margin: 0;
     transition: 200ms ease-in-out;
@@ -398,7 +398,7 @@ margin: 65px 50px  auto 15%;
 .item {
     border: 5px solid #333;
     border-radius: 10px;
-    margin: 10px 10px;
+    margin: 10px 30px;
     transition: 600ms ease-in-out;
 }
 
@@ -461,7 +461,7 @@ margin: 65px 50px  auto 15%;
 
 
 .item:hover img {
-    width: 40%;
+    width: 60%;
 
 }
 
