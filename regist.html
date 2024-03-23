@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Kreaton regist</title>
+</head>
+
+
+<body>
+
+<nav id="upper-menu">
+    <ul>
+        <li><a href="shop.html">Bolt</a></li>
+        <li><a href="basket.html">Kosár</a></li>
+        <li><a href="about_us.html">Rólunk</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html">Belépek/Regisztrálok</a></li>
+
+    </ul>
+</nav>
+
+
+<div class="main_content">
+    <form action="" method="post">
+        <div>
+            <legend>Regisztráció</legend>
+            <label for="rfelh">Felhasználónév:</label><br/><br/>
+            <input id="rfelh" type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
+            <label for="rpass">Jelszó:</label> <br/><br/>
+            <input id="rpass" type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
+            <label for="rpass2">Jelszó újra:</label> <br/><br/>
+            <input id="rpass2" type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
+            <label for="email">Email:</label> <br/><br/>
+            <input id="email" type="email" name="email" placeholder="valami@valami..." required/> <br/><br/>
+            <input type="submit" value="Regisztráció" onclick='location.href="login.html"'/>
+        </div>
+    </form>
+</div>
+
+
+<footer>
+    <h1>Author: Mc jolo</h1>
+</footer>
+</body>
+</html>

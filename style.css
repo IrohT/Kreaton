@@ -13,10 +13,13 @@ body {
 }
 
 footer {
-    text-align: right;
-    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #333;
     color: white;
+    text-align: right;
 
 }
 
@@ -34,6 +37,17 @@ h1 {
 }
 
 /*-------------------- form ----------------*/
+
+
+form {
+    border: solid #333;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto;
+    padding: 10px;
+
+}
+
 form input[type=submit] {
     background: #333;
     cursor: pointer;
@@ -65,12 +79,25 @@ form input:hover {
 
 form legend {
     padding: 10px;
-    text-align: left;
+    text-align: center;
     margin: 20px auto;
 
     font-size: 30px;
     font-weight: bolder;
 
+}
+
+form label {
+    text-align: left;
+    margin: 20px auto;
+
+    font-size: 15px;
+
+}
+
+
+#flex-buttons {
+    display: flex;
 }
 
 /*-------------------- navigáció ----------------*/
@@ -92,7 +119,8 @@ form legend {
 
 /*---- oldalso -----*/
 #side-menu {
-    margin: 100px 0;
+    background-color: #333333;
+    margin: 70px 0;
     position: fixed;
     width: 5%;
     height: 100%;
@@ -157,47 +185,6 @@ nav ul {
 }
 
 
-/*-------------------- rock card ----------------*/
-#rock {
-    border: solid #333;
-    border-radius: 10px;
-    width: 600px;
-    margin: 200px auto 50px;
-    padding: 20px;
-    transition: all 200ms ease-in;
-}
-
-#rock:hover {
-    box-shadow: 5px 10px;
-    transform: scale(1.1);
-    transition: all 350ms ease;
-
-}
-
-
-#rock p {
-    font-size: 15px;
-}
-
-/*-------------------- login és regist form----------------*/
-
-#login {
-    border: solid #333;
-    border-radius: 10px;
-    width: 300px;
-    height: 400px;
-    margin: 200px auto 50px;
-    padding: 10px;
-
-}
-
-#regist {
-    border: solid #333;
-    border-radius: 10px;
-    width: 300px;
-    margin: 200px auto 50px;
-    padding: 10px;
-}
 
 /*-------------------- kosár ----------------*/
 
@@ -436,8 +423,6 @@ margin: 65px 50px  auto 15%;
 .item:hover p {
     display: block;
 }
-
-
 
 
 .item h3 {
