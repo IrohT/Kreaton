@@ -11,33 +11,75 @@
 
 <body>
 
-<nav id="upper-menu">
+<nav>
     <ul>
-        <li><a href="shop.html">Bolt</a></li>
+        <li class="dropdown">
+            <a href="shop.html" class="dropbtn">Bolt</a>
+            <div class="dropdown-content">
+                <a href="tren.html">Tren</a>
+                <a href=" feherje.html">Fehérje</a>
+                <a href="vitamin.html">Vitamin</a>
+
+            </div>
+        </li>
         <li><a href="basket.html">Kosár</a></li>
         <li><a href="about_us.html">Rólunk</a></li>
         <li><a href="profile.html">Profile</a></li>
-        <li><a href="login.html">Belépek/Regisztrálok</a></li>
+        <li><a href="login.html">Belépek</a></li>
 
     </ul>
 </nav>
 
 
 <div class="main_content">
-    <div>
+        <form id="order" action="" method="post">
+            <div>
+                <legend>Szállítási adatok</legend>
+                <label for="megyek">Vármegyek</label><br/><br/>
+                <select id="megyek" name="megyek" size=”1”>
+                    <option value="megye1" selected>Pest</option>
+                    <option value="megye2">Bács-Kiskun</option>
+                    <option value="megye3">Baranya</option>
+                    <option value="megye4">Békés</option>
+                    <option value="megye2">Borsod-Abaúj-Zemplén</option>
+                    <option value="megye3">Csongrád-Csanád</option>
+                    <option value="megye4">Fejér</option>
+                    <option value="megye2">Győr-Moson-Sopron</option>
+                    <option value="megye3">Hajdú-Bihar</option>
+                    <option value="megye4">Heves</option>
+                    <option value="megye2">Jász-Nagykun-Szolnok</option>
+                    <option value="megye3">Komárom-Esztergom</option>
+                    <option value="megye4">Nógrád</option>
+                    <option value="megye2">Somogy</option>
+                    <option value="megye3">Szabolcs-Szatmár-Bereg</option>
+                    <option value="megye4">Tolna</option>
+                    <option value="megye2">Vas</option>
+                    <option value="megye3">Veszprém</option>
+                    <option value="megye4">Zala</option>
+                </select><br/><br/>
 
 
-    </div>
+                <label for="city">Város</label><br/><br/>
+                <input id="city" type="text" name="username" placeholder="Budapest" required/> <br/><br/>
 
-    <div>
+                <label for="street">Utca/házszám</label><br/><br/>
+                <input id="street" type="text" name="username" placeholder="robbano utca 120/A" required/> <br/><br/>
 
-    </div>
+                <label for="telephone">Telefonszám</label><br/><br/>
+                <input id="telephone" type="tel" name="username" placeholder="+3620888888" required/> <br/><br/>
 
+                <label for="futar">Üzenet a futárnak</label><br/><br/>
+                <textarea id="futar">
 
+                </textarea>
+
+                <input type="submit" value="Fizetés"/>
+            </div>
+        </form>
 </div>
 
 <footer>
-    <h1>Author: Mc jolo</h1>
+    <h1>Authors: Titán és Levente</h1>
 </footer>
 </body>
 </html>

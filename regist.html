@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Kreaton login</title>
+    <title>Kreaton regist</title>
 </head>
 
 
@@ -32,24 +32,19 @@
 
 <div class="main_content">
     <form action="" method="post">
-
-    <div>
-
-        <legend>Belépés</legend>
-        <label for="felh">Felhasználónév:</label><br/><br/>
-        <input id="felh" type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
-        <label for="jel">Jelszó:</label><br/><br/>
-        <input id="jel" type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
-        <div id="flex-buttons">
-            <input type="submit" value="Bejelentkezés" onclick='location.href="shop.html"'/>
-            <input type="submit" value="Még nincs profilom" onclick='location.href="regist.html"'/>
+        <div>
+            <legend>Regisztráció</legend>
+            <label for="rfelh">Felhasználónév:</label><br/><br/>
+            <input id="rfelh" type="text" name="username" placeholder="Felhasználónév..." required/> <br/><br/>
+            <label for="rpass">Jelszó:</label> <br/><br/>
+            <input id="rpass" type="password" name="passwd" placeholder="Jelszó..." required/> <br/><br/>
+            <label for="rpass2">Jelszó újra:</label> <br/><br/>
+            <input id="rpass2" type="password" name="passwd" required/> <br/><br/>
+            <label for="email">Email:</label> <br/><br/>
+            <input id="email" type="email" name="email" placeholder="valami@valami..." required/> <br/><br/>
+            <input type="submit" value="Regisztráció" onclick='location.href="login.html"'/>
         </div>
-
-
-    </div>
-
     </form>
-
 </div>
 
 
