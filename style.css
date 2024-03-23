@@ -539,7 +539,6 @@ margin: 65px 50px  auto 15%;
 
     form {
         width: 200px;
-        height: 200px;
         margin: 100px auto 50px;
         padding: 5px;
     }
@@ -572,5 +571,8 @@ margin: 65px 50px  auto 15%;
         width: 40%;
     }
 
+    #sum a {
+        font-size: 10px;
+    }
 
 }
